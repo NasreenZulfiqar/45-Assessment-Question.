@@ -12,3 +12,34 @@
 //• Test whether an item is in a array
 
 //• Test whether an item is not in a array
+
+let string1: string = "hello";
+let string2: string = "world";
+console.log(string1 === string2); 
+console.log(string1 !== string2); 
+
+let mixedCaseString: string = "HelloWorld";
+console.log(mixedCaseString.toLowerCase() === "helloworld"); 
+console.log(mixedCaseString.toLowerCase() !== "helloworld"); 
+
+let num1: number = 5;
+let num2: number = 10;
+console.log(num1 === num2); 
+console.log(num1 !== num2); 
+console.log(num1 > num2); 
+console.log(num1 < num2); 
+console.log(num1 >= num2); 
+console.log(num1 <= num2);
+
+var x: boolean = true;
+var y: boolean = false;
+console.log(x && y); 
+console.log(x || y);
+
+let numbers: number[] = [1, 2, 3, 4, 5];
+let searchNumber: number = 3;
+console.log(numbers.includes(searchNumber));
+
+let fruits: string[] = ["apple", "banana", "orange"];
+let searchFruit: string = "grape";
+console.log(!fruits.includes(searchFruit));
